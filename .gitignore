@@ -1,4 +1,4 @@
 env/*
 dependencies/*
-*.zip
+aws_lambda_artifact.zip
 .DS_Store
