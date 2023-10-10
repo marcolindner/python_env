@@ -61,3 +61,5 @@
     ![Lambda Funktion erstellen](./assets/lambda_1.png)
     ![Lambda Funktion erstellen](./assets/lambda_2.png)
     ![Lambda Funktion erstellen](./assets/lambda_3.png)
+    ![Lambda Funktion erstellen](./assets/lambda_4.png)
+    ![Lambda Funktion erstellen](./assets/lambda_4.png)
