@@ -25,4 +25,20 @@
     pip install fastapi uvicorn mangum
     ```
 
-    Abhängigkeiten auflisten als requirements.txt 
+    Abhängigkeiten auflisten als requirements.txt
+
+    ```
+    pip freeze > requirements.txt
+    ```
+
+    Abhängigkeiten in einem seperaten "dependencies" Ordner installieren
+
+    ```
+    pip install -t dependencies -r requirements.txt
+    ```
+
+    ZIP File von dem Dependencies Ordner erstellen
+
+    ```
+    (cd dependencies; zip ../aws_lambda_artifact.zip -r .)
+    ```
