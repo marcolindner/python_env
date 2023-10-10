@@ -7,5 +7,9 @@ app = FastAPI()
 def get_root():
     return {"message": "Hello"}
 
+@app.get("/profile")
+def get_root():
+    return {"name": "Hans","email": "hans@wurst.de"}
+
 
 handler = Mangum(app)
