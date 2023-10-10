@@ -8,9 +8,16 @@
     ```
 
     Virtuelles Enviroment aktivieren
+    
+    Linux
 
     ```
     source env/bin/activate
+    ```
+    Windows
+
+    ```
+    .\env\Scripts\Activate.ps1
     ```
 
     Je nach OS sind die Activate-Befehle unterschiedlich:
