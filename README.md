@@ -42,3 +42,9 @@
     ```
     (cd dependencies; zip ../aws_lambda_artifact.zip -r .)
     ```
+
+    Unseren Code dem ZIP hinzufügen (hier als Beispiel die main.py)
+
+    ```
+    zip aws_lambda_artifact.zip -u main.py
+    ```
