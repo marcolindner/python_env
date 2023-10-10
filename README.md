@@ -22,7 +22,7 @@
 2. Pakete installieren
 
     ```
-    pip install fastapi uvicorn mangum
+    pip install fastapi==0.99.1 mangum==0.17.0
     ```
 
     Abhängigkeiten auflisten als requirements.txt
@@ -48,3 +48,9 @@
     ```
     zip aws_lambda_artifact.zip -u main.py
     ```
+
+3. Lambda Funktion erstellen
+
+    ![Lambda Funktion erstellen](./assets/lambda_1.png)
+    ![Lambda Funktion erstellen](./assets/lambda_2.png)
+    ![Lambda Funktion erstellen](./assets/lambda_3.png)
